@@ -73,7 +73,7 @@ To achieve the same functionality with `expo-camera`, you can use the `CameraVie
 ```typescript
 import React, { useState, useEffect } from "react";
 import { Text, View, StyleSheet, Button } from "react-native";
-import { CameraView, Camera } from "expo-camera/next";
+import { CameraView, Camera } from "expo-camera";
 
 export default function App() {
   const [hasPermission, setHasPermission] = useState(null);
